@@ -89,7 +89,7 @@ const topics = [
 const App = props => {
   const classes = useStyles();
   const [isExpanded, setIsExpanded] = useState(false);
-  const [chosenTopic, setChosenTopic] = useState(false);
+  const [chosenTopic, setChosenTopic] = useState(null);
 
   return (
     <div className={classes.root}>
